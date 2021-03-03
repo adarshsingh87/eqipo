@@ -4,7 +4,7 @@
 	font-family: 'Mulish';
 	box-sizing: border-box;
 	max-width: 100vw;
-	overflow-x: hidden;
+	/* overflow-x: hidden; */
 }
 
 .tranparent {
@@ -28,7 +28,7 @@
 	font-weight: 600 !important;
 }
 
-a:hover {
+.nav-link:hover {
 	text-decoration: none !important;
 }
 
@@ -89,6 +89,7 @@ a:hover {
 	line-height: 117%;
 	letter-spacing: 0.2px;
 	color: #053d76;
+	overflow: hidden;
 }
 
 .hero-heading-desc {
@@ -356,6 +357,7 @@ a:hover {
 	height: 185px;
 	padding-bottom: 31px;
 	margin: 10px auto;
+	overflow: hidden;
 }
 
 .ideas-cont img {
@@ -514,6 +516,10 @@ p {
 	grid-template-columns: 1fr 1fr;
 }
 
+.owl-stage {
+	overflow: hidden;
+}
+
 .carousel-elem-img-cont {
 	display: flex;
 	align-items: center;
@@ -666,6 +672,7 @@ p {
 	letter-spacing: 0.1px;
 	color: #053d76;
 	margin-top: 16px;
+	overflow: hidden;
 }
 
 .clients {
@@ -733,6 +740,17 @@ p {
 	height: 770px;
 }
 
+.contact-us {
+	background: #053D76;
+	color: white;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.contact-us .nav-link{
+	color: white !important;
+}
+
 @media screen and (max-width: 960px) {
 	.after-hero-cont {
 		margin-top: 0;
@@ -752,5 +770,8 @@ p {
 	}
 	.we-serve-container {
 		margin: 40px 0;
+	}
+	.nav-container-cus {
+		background-color: #fff;
 	}
 }
