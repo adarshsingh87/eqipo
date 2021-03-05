@@ -3,7 +3,7 @@
 * {
 	font-family: 'Mulish';
 	box-sizing: border-box;
-	max-width: 100vw;
+	/* max-width: 100vw; */
 	/* overflow-x: hidden; */
 }
 
@@ -492,7 +492,6 @@ p {
 }
 .owl-dots {
 	margin-top: 30px;
-	display: none;
 }
 .uk-card-title {
 	padding-bottom: 20px;
@@ -516,9 +515,9 @@ p {
 	grid-template-columns: 1fr 1fr;
 }
 
-.owl-stage {
+/* .owl-stage {
 	overflow: hidden;
-}
+} */
 
 .carousel-elem-img-cont {
 	display: flex;
@@ -749,6 +748,14 @@ p {
 
 .contact-us .nav-link{
 	color: white !important;
+}
+
+.dropdown-menu {
+	border-top: 3px solid #22A5DE !important;
+}
+
+.navbar-toggler {
+	border: none !important;
 }
 
 @media screen and (max-width: 960px) {
