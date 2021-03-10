@@ -27,7 +27,10 @@ $('.sec-carousel').owlCarousel({
 		'<span class="uk-margin-small-right uk-icon" uk-icon="icon: chevron-left"></span>',
 		'<span class="uk-margin-small-left uk-icon" uk-icon="icon: chevron-right"></span>',
 	],
-	// loop: true,
+  autoplay:true,
+  autoplayTimeout:2000,
+  autoplayHoverPause:true,
+	loop: true,
 	responsive: {
 		0: {
 			items: 1,
@@ -42,6 +45,8 @@ $('.sec-carousel').owlCarousel({
 })
 
 $(window).scroll(startCounter);
+$(window).scroll(secCounter);
+
 function startCounter() {
     if ($(window).scrollTop() > $('.hero-img').scrollTop()) {
         $(window).off("scroll", startCounter);
@@ -69,7 +74,23 @@ function startCounter() {
       group103.style.opacity = '1';
 			var group92 = document.querySelector('#Group-92');
       group92.style.opacity = '1';
-    }
+	}
+}
+
+function secCounter() {
+    if ($(window).scrollTop() > $('.cirecle-percentage').scrollTop()) {
+			$(window).off("scroll", secCounter);
+		$('.temp').each(function () {
+        var $this = $(this);
+        jQuery({ Counter: 0 }).animate({ Counter: $this.text() }, {
+            duration: 3000,
+            easing: 'swing',
+            step: function () {
+                $this.text(Math.ceil(this.Counter));
+            }
+        });
+    });
+	}
 }
 
 $(window).on('scroll', function() {
@@ -83,7 +104,7 @@ $(window).on('scroll', function() {
 
 // $(window).scroll(startCounter);
 // function startCounter() {
-//     if ($(window).scrollTop() > 3000) {
+//     if ($(window).scrollTop() > 2000) {
 //         $(window).off("scroll", startCounter);
 //         $('.temp').each(function () {
 //             var $this = $(this);
@@ -97,14 +118,3 @@ $(window).on('scroll', function() {
 //         });
 //     }
 // }
-
- $('.temp').each(function () {
-            var $this = $(this);
-            jQuery({ Counter: 0 }).animate({ Counter: $this.text() }, {
-                duration: 3000,
-                easing: 'swing',
-                step: function () {
-                    $this.text(Math.ceil(this.Counter));
-                }
-            });
-        });
