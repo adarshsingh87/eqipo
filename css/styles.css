@@ -40,6 +40,13 @@
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+	font-size: 12px;
+	font-family: 'Mulish';
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 120%;
+	letter-spacing: 0.1px;
+	color: #053d76;
 }
 
 .tempp {
@@ -58,22 +65,49 @@
 }
 
 .dropdown-menu {
-	min-width: 225px !important;
+	min-width: 200px !important;
 }
 
 .dropdown-item {
-	padding: 12px 4px !important;
+	padding: 12px !important;
 }
 
-.hero-section {
-	min-height: 650px;
+.nav-contianer {
+	width: 100% !important;
+	max-width: 1440px !important;
+}
+
+@media screen and (max-width: 1200px) {
+	.nav-link {
+		font-size: 13px !important;
+	}
+}
+
+body {
 	background: linear-gradient(
 		178.91deg,
 		rgba(108, 220, 247, 0.3) 24.42%,
 		rgba(232, 247, 255, 0) 104.59%
 	);
+	background-size: 100vw 650px;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+}
+
+.hero-section {
+	min-height: 650px;
 	display: flex;
 	align-items: flex-end;
+}
+
+@media screen and (max-width: 960px) {
+	.spec-page-herosec {
+		margin-top: 75px;
+		min-height: 200px !important;
+	}
+	.hero-section {
+		margin-top: 75px;
+	}
 }
 
 @media (min-width: 992px) {
@@ -126,6 +160,8 @@
 }
 
 .sec-page-title {
+	max-width: 730px;
+	margin: auto !important;
 	font-family: 'Mulish';
 	font-weight: 800;
 	font-size: 48px;
@@ -156,6 +192,8 @@
 }
 
 .sec-page-desc {
+	max-width: 540px;
+	margin: 16px auto !important;
 	margin: 18px 0;
 	font-family: 'Mulish';
 	font-size: 16px;
@@ -479,6 +517,8 @@
 }
 
 .hmm-title {
+	max-width: 871px;
+	margin: auto !important;
 	font-weight: 800;
 	font-size: 32px;
 	line-height: 125%;
@@ -486,7 +526,7 @@
 	letter-spacing: 0.1px;
 	color: #053d76;
 	width: 95%;
-	margin-top: 80px;
+	margin-top: 80px !important;
 }
 
 .accent-bg {
@@ -554,7 +594,7 @@
 }
 
 .mb120 {
-	margin-bottom: 120px;
+	margin-bottom: 120px !important;
 }
 
 /* ! carousel */
@@ -924,13 +964,14 @@ p {
 }
 
 .desc {
+	max-width: 915px;
+	margin: 16px auto !important;
 	font-family: 'Mulish';
 	font-size: 16px;
 	line-height: 137%;
 	text-align: center;
 	letter-spacing: 0.3px;
 	color: #7783a8;
-	margin: 16px 0;
 }
 
 .hmm-main-container {
@@ -973,7 +1014,7 @@ p {
 		flex-direction: column-reverse;
 	}
 	.new-page-leftimg .right {
-	display: flex;
-	justify-content: flex-end;
-}
+		display: flex;
+		justify-content: flex-end;
+	}
 }
