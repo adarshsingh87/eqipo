@@ -712,72 +712,102 @@ p {
 #Group-93 {
 	opacity: 0;
 	transition: all 0.5s ease-in;
-}
-
-#Group-94 {
-	opacity: 0;
-	transition: all 0.5s ease-in;
-	transition-delay: 500ms;
-}
-
-#Group-95 {
-	opacity: 0;
-	transition: all 0.5s ease-in;
 	transition-delay: 1s;
 }
 
-#Group-96 {
+#Group-87 {
 	opacity: 0;
 	transition: all 0.5s ease-in;
-	transition-delay: 1.5s;
+	transition-delay: 8s;
 }
 
-#Group-97 {
+#Group-88 {
+	opacity: 0;
+	transition: all 0.5s ease-in;
+}
+
+#Group-89 {
 	opacity: 0;
 	transition: all 0.5s ease-in;
 	transition-delay: 2s;
 }
 
-#Group-98 {
-	opacity: 0;
-	transition: all 0.5s ease-in;
-	transition-delay: 2.5s;
-}
-
-#Group-99 {
-	opacity: 0;
-	transition: all 0.5s ease-in;
-	transition-delay: 3s;
-}
-
-#Group-100 {
-	opacity: 0;
-	transition: all 0.5s ease-in;
-	transition-delay: 3.5s;
-}
-
-#Group-101 {
+#Group-90 {
 	opacity: 0;
 	transition: all 0.5s ease-in;
 	transition-delay: 4s;
 }
 
-#Group-102 {
+#Group-91 {
+	opacity: 0;
+	transition: all 0.5s ease-in;
+	transition-delay: 6s;
+}
+
+#Group-94 {
+	opacity: 0;
+	transition: all 0.5s ease-in;
+	transition-delay: 1.5s;
+}
+
+#Group-95 {
+	opacity: 0;
+	transition: all 0.5s ease-in;
+	transition-delay: 2.5s;
+}
+
+#Group-96 {
+	opacity: 0;
+	transition: all 0.5s ease-in;
+	transition-delay: 3s;
+}
+
+#Group-97 {
+	opacity: 0;
+	transition: all 0.5s ease-in;
+	transition-delay: 3.5s;
+}
+
+#Group-98 {
 	opacity: 0;
 	transition: all 0.5s ease-in;
 	transition-delay: 4.5s;
 }
 
-#Group-103 {
+#Group-99 {
 	opacity: 0;
 	transition: all 0.5s ease-in;
 	transition-delay: 5s;
 }
 
-#Group-92 {
+#Group-100 {
 	opacity: 0;
 	transition: all 0.5s ease-in;
 	transition-delay: 5.5s;
+}
+
+#Group-101 {
+	opacity: 0;
+	transition: all 0.5s ease-in;
+	transition-delay: 6.5s;
+}
+
+#Group-102 {
+	opacity: 0;
+	transition: all 0.5s ease-in;
+	transition-delay: 7s;
+}
+
+#Group-103 {
+	opacity: 0;
+	transition: all 0.5s ease-in;
+	transition-delay: 7.5s;
+}
+
+#Group-92 {
+	opacity: 0;
+	transition: all 0.5s ease-in;
+	transition-delay: 500ms;
 }
 
 .we-serve {

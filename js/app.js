@@ -74,6 +74,16 @@ function startCounter() {
       group103.style.opacity = '1';
 			var group92 = document.querySelector('#Group-92');
       group92.style.opacity = '1';
+			var group87 = document.querySelector('#Group-87');
+      group87.style.opacity = '1';
+			var group88 = document.querySelector('#Group-88');
+      group88.style.opacity = '1';
+			var group89 = document.querySelector('#Group-89');
+      group89.style.opacity = '1';
+			var group90 = document.querySelector('#Group-90');
+      group90.style.opacity = '1';
+			var group91 = document.querySelector('#Group-91');
+      group91.style.opacity = '1';
 	}
 }
 
