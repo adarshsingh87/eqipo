@@ -477,7 +477,7 @@ body {
 	color: #7783a8;
 }
 
-.text-info {
+.text-info-nbs {
 	max-width: 920px;
 	margin: 120px auto;
 	font-style: italic;
@@ -934,7 +934,7 @@ p {
 	.after-hero-cont {
 		margin-top: 0;
 	}
-	.text-info {
+	.text-info-nbs {
 		margin: 30px 0;
 	}
 	.svg {
@@ -990,7 +990,7 @@ p {
 }
 
 .new-page-left-img {
-	max-width: fit-content;
+	width: fit-content;
 }
 
 .desc {
@@ -1038,13 +1038,118 @@ p {
 	.new-page-rightimg {
 		margin-left: 0;
 		flex-direction: column-reverse;
+		margin-bottom: 60px;
 	}
 	.new-page-leftimg {
 		margin-right: 0;
 		flex-direction: column-reverse;
+		margin-bottom: 60px;
 	}
 	.new-page-leftimg .right {
 		display: flex;
 		justify-content: flex-end;
+	}
+	.right {
+		margin-bottom: 30px;
+	}
+}
+
+.we-serve-pillar-card {
+	background-color: #fff;
+	border-radius: 8px;
+	padding: 16px;
+	box-sizing: border-box;
+	width: 350px;
+	height: 255px;
+	margin: 15px;
+}
+
+.we-serve-pillar-card img {
+	border-radius: 50%;
+	display: block;
+	margin: auto;
+	margin-top: 30px;
+	margin-bottom: 12px;
+}
+
+.card-title-my {
+	font-family: 'Mulish';
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 133%;
+	text-align: center;
+	letter-spacing: 0.1px;
+	color: #053d76;
+	margin-bottom: 8px;
+}
+
+.card-desc-my {
+	font-family: 'Mulish';
+	font-size: 16px;
+	line-height: 137%;
+	text-align: center;
+	letter-spacing: 0.3px;
+	color: #7783a8;
+}
+
+.left-img-right-text, .right-img-left-text {
+	margin: 100px auto;
+	display: flex;
+	width: 100%;
+}
+
+.right-img-left-text {
+	flex-direction: row-reverse;
+}
+
+.left-img-right-text div, .right-img-left-text div {
+	flex: 1;
+}
+
+.center-stuff {
+	align-self: center;
+}
+
+.right-text-title {
+	font-family: 'Mulish';
+	font-weight: bold;
+	font-size: 32px;
+	line-height: 125%;
+	letter-spacing: 0.1px;
+	color: #053d76;
+}
+
+.right-text-desc {
+	margin: 20px 0;
+	font-family: 'Mulish';
+	font-size: 16px;
+	line-height: 137%;
+	letter-spacing: 0.3px;
+	color: #7783a8;
+}
+
+.right-a {
+	font-family: 'Mulish';
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 129%;
+	letter-spacing: 0.3px;
+	text-decoration-line: underline;
+	color: #06a3e4;
+}
+
+.right-img-left-text div img {
+	float: right;
+}
+
+@media screen and (max-width: 960px) {
+	.left-img-right-text, .right-img-left-text {
+		display: block;
+	}
+	.left-img-right-text div, .right-img-left-text div {
+		margin: 15px 0;
+	}
+	.right-img-left-text div img {
+		float: none;
 	}
 }
