@@ -1092,7 +1092,8 @@ p {
 	color: #7783a8;
 }
 
-.left-img-right-text, .right-img-left-text {
+.left-img-right-text,
+.right-img-left-text {
 	margin: 100px auto;
 	display: flex;
 	width: 100%;
@@ -1102,7 +1103,8 @@ p {
 	flex-direction: row-reverse;
 }
 
-.left-img-right-text div, .right-img-left-text div {
+.left-img-right-text div,
+.right-img-left-text div {
 	flex: 1;
 }
 
@@ -1143,13 +1145,71 @@ p {
 }
 
 @media screen and (max-width: 960px) {
-	.left-img-right-text, .right-img-left-text {
+	.left-img-right-text,
+	.right-img-left-text {
 		display: block;
 	}
-	.left-img-right-text div, .right-img-left-text div {
+	.left-img-right-text div,
+	.right-img-left-text div {
 		margin: 15px 0;
 	}
 	.right-img-left-text div img {
 		float: none;
 	}
+}
+
+.performance-measures-container {
+	display: flex;
+	justify-content: space-between;
+	overflow-x: scroll;
+}
+
+.performance-measures-container::-webkit-scrollbar {
+	display: none;
+}
+
+.performance-measures-container2 {
+	display: flex;
+	justify-content: center;
+	overflow-x: scroll;
+}
+
+.performance-measures-container2::-webkit-scrollbar {
+	display: none;
+}
+
+.performance-btn {
+	background-color: transparent;
+	outline: none;
+	padding: 12px 24px;
+	border: 1px solid #7783a8;
+	box-sizing: border-box;
+	font-family: 'Mulish';
+	font-weight: bold;
+	font-size: 13.1244px;
+	line-height: 133%;
+	text-align: center;
+	letter-spacing: 0.0729135px;
+	color: #7783a8;
+	border-radius: 30px;
+	margin: 15px;
+}
+
+.active-perf {
+	background: #06A3E4;
+	color: white;
+	border: none;
+}
+
+.performance-results {
+	background: #06A3E4;
+	color: white;
+	border-radius: 50%;
+	font-size: 13px;
+	font-weight: bold;
+	padding: 40px 20px;
+	text-align: center;
+	margin: 20px;
+	width: 145px;
+	height: 145px;
 }
