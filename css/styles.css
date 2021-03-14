@@ -54,6 +54,11 @@
 	align-items: center;
 }
 
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+}
+
 .nav-dropdown-elem:hover .nav-dropdown-elem-chevron {
 	display: inline-block;
 }
