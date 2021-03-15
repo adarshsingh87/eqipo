@@ -143,7 +143,5 @@ function openCity(evt, cityName) {
 	evt.currentTarget.className += ' active-perf'
 }
 
-// Get the element with id="defaultOpen" and click on it
-// document.getElementById("defaultOpen").click();
 const links = document.querySelectorAll('.tablinks')
 links[0].click()
