@@ -42,13 +42,33 @@ $('.sec-carousel').owlCarousel({
 			items: 1,
 		},
 	},
-})
+} )
+
+function elementInViewport(el) {
+  var top = el.offsetTop;
+  var left = el.offsetLeft;
+  var width = el.offsetWidth;
+  var height = el.offsetHeight;
+
+  while(el.offsetParent) {
+    el = el.offsetParent;
+    top += el.offsetTop;
+    left += el.offsetLeft;
+  }
+
+  return (
+    top >= window.pageYOffset &&
+    left >= window.pageXOffset &&
+    (top + height) <= (window.pageYOffset + window.innerHeight) &&
+    (left + width) <= (window.pageXOffset + window.innerWidth)
+  );
+}
 
 $(window).scroll(startCounter);
 $(window).scroll(secCounter);
 
 function startCounter() {
-    if ($(window).scrollTop() > $('.hero-img').scrollTop()) {
+    if (elementInViewport(document.querySelector('.teams-cont'))) {
         $(window).off("scroll", startCounter);
 			var group93 = document.querySelector('#Group-93');
       group93.style.opacity = '1';
@@ -88,8 +108,9 @@ function startCounter() {
 }
 
 function secCounter() {
-    if ($(window).scrollTop() > $('.cirecle-percentage').scrollTop()) {
+		if (elementInViewport(document.querySelector('.cirecle-percentage'))) {
 			$(window).off("scroll", secCounter);
+			$('.trigger').addClass('animate');
 		$('.temp').each(function () {
         var $this = $(this);
         jQuery({ Counter: 0 }).animate({ Counter: $this.text() }, {
@@ -101,16 +122,29 @@ function secCounter() {
         });
     });
 	}
+  //   if ($(window).scrollTop() > $('.cirecle-percentage').scrollTop()) {
+	// 		$(window).off("scroll", secCounter);
+	// 	$('.temp').each(function () {
+  //       var $this = $(this);
+  //       jQuery({ Counter: 0 }).animate({ Counter: $this.text() }, {
+  //           duration: 3000,
+  //           easing: 'swing',
+  //           step: function () {
+  //               $this.text(Math.ceil(this.Counter));
+  //           }
+  //       });
+  //   });
+	// }
 }
 
-$(window).on('scroll', function() {
-  var position = $(this).scrollTop();
-  if( position >= $('.circle-wrap').scrollTop() ) {
-    $('.trigger').addClass('animate');
-  } else {
-    $('.trigger').removeClass('animate');
-  }
-} );
+// $(window).on('scroll', function() {
+//   var position = $(this).scrollTop();
+//   if( position >= $('.circle-wrap').scrollTop() ) {
+//     $('.trigger').addClass('animate');
+//   } else {
+//     $('.trigger').removeClass('animate');
+//   }
+// } );
 
 // $(window).scroll(startCounter);
 // function startCounter() {
@@ -145,3 +179,4 @@ function openCity(evt, cityName) {
 
 const links = document.querySelectorAll('.tablinks')
 links[0].click()
+// 
