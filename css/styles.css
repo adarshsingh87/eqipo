@@ -960,13 +960,13 @@ p {
 }
 
 .new-page-rightimg {
-	margin-left: 20vw;
+	margin-left: 11.45vw;
 	display: flex;
 	margin-bottom: 120px;
 }
 
 .new-page-leftimg {
-	margin-right: 20vw;
+	margin-right: 11.45vw;
 	display: flex;
 	margin-bottom: 120px;
 	flex-direction: row-reverse;
