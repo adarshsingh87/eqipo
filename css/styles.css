@@ -596,7 +596,7 @@ body {
 	line-height: 137%;
 	text-align: center;
 	letter-spacing: 0.1px;
-	color: #2F80ED;
+	color: #2f80ed;
 }
 
 .mb120 {
@@ -1242,11 +1242,58 @@ p {
 }
 
 .jqSimpleConnect {
-	background: repeating-linear-gradient( 90deg, transparent, transparent 2px, #06A3E4 2px, #06A3E4 4px);
+	background: repeating-linear-gradient(
+		90deg,
+		transparent,
+		transparent 2px,
+		#06a3e4 2px,
+		#06a3e4 4px
+	) !important;
 	background-color: transparent !important;
 }
 
-#jqSimpleConnect_8_1, #jqSimpleConnect_3_1 {
-	background: repeating-linear-gradient( 0deg, transparent, transparent 2px, #06A3E4 2px, #06A3E4 4px) !important;
+#jqSimpleConnect_8_1,
+#jqSimpleConnect_3_1,
+#jqSimpleConnect_11_1 {
+	background: repeating-linear-gradient(
+		0deg,
+		transparent,
+		transparent 2px,
+		#06a3e4 2px,
+		#06a3e4 4px
+	) !important;
 	background-color: transparent !important;
+}
+
+@media screen and (max-width: 1200px) {
+	#jqSimpleConnect_8_1,
+	#jqSimpleConnect_1_1,
+	#jqSimpleConnect_3_1 {
+		background: repeating-linear-gradient(
+			90deg,
+			transparent,
+			transparent 2px,
+			#06a3e4 2px,
+			#06a3e4 4px
+		) !important;
+		background-color: transparent !important;
+	}
+	#jqSimpleConnect_2_1,
+	#jqSimpleConnect_4_1,
+	#jqSimpleConnect_9_1 {
+		background: repeating-linear-gradient(
+			0deg,
+			transparent,
+			transparent 2px,
+			#06a3e4 2px,
+			#06a3e4 4px
+		) !important;
+		background-color: transparent !important;
+	}
+}
+
+.circle-connect-1,
+.circle-connect-2 {
+	background-color: #fff;
+	z-index: 1000;
 }

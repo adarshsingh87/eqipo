@@ -42,7 +42,7 @@ function startCounter() {
 	}
 }
 
-if (window.innerWidth > 1200) {
+if (window.innerWidth >= 1200) {
   jqSimpleConnect.connect(".elemA",".elemB", {
   color:'green',
   radius: 3,
@@ -97,7 +97,79 @@ jqSimpleConnect.connect(".elemJ",".elemK", {
   color:'green',
   radius: 3,
 });
+
+  jqSimpleConnect.connect(".circle-connect-1","#Group-93", {
+  color:'green',
+  radius: 3,
+  anchorA:'horizontal',
+  anchorB:'vertical'
+});
+
+  jqSimpleConnect.connect(".circle-connect-2","#Group-102", {
+  color:'green',
+  radius: 3,
+  anchorB:'horizontal',
+  anchorA:'vertical'
+});
 }
+
+else if (window.innerWidth < 1200 && window.innerWidth > 991) {
+  jqSimpleConnect.connect(".elemA",".elemB", {
+  color:'green',
+  radius: 3,
+});
+
+jqSimpleConnect.connect(".elemB",".elemC", {
+  color:'green',
+  radius: 3,
+});
+
+jqSimpleConnect.connect(".elemC",".elemF", {
+  color:'green',
+  radius: 3,
+});
+
+jqSimpleConnect.connect(".elemD",".elemE", {
+  color:'green',
+  radius: 3,
+  anchorA: 'vertical',
+  anchorB: 'vertical',
+  roundedCorners: true
+});
+
+jqSimpleConnect.connect(".elemD",".elemG", {
+  color:'green',
+  radius: 3,
+});
+
+jqSimpleConnect.connect(".elemE",".elemF", {
+  color:'green',
+  radius: 3,
+});
+
+jqSimpleConnect.connect(".elemG",".elemH", {
+  color:'green',
+  radius: 3,
+});
+
+jqSimpleConnect.connect(".elemI",".elemH", {
+  color:'green',
+  radius: 3,
+});
+
+jqSimpleConnect.connect(".elemK",".elemJ", {
+  color:'green',
+  radius: 3,
+});
+
+jqSimpleConnect.connect(".elemI",".elemK", {
+  color:'green',
+  radius: 3,
+  anchorB:'horizontal',
+  anchorA:'vertical'
+});
+}
+
 
 // function secCounter() {
 // 		if (elementInViewport(document.querySelector('.cirecle-percentage'))) {
