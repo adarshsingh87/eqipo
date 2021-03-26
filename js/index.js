@@ -42,6 +42,63 @@ function startCounter() {
 	}
 }
 
+if (window.innerWidth > 1200) {
+  jqSimpleConnect.connect(".elemA",".elemB", {
+  color:'green',
+  radius: 3,
+});
+
+jqSimpleConnect.connect(".elemB",".elemC", {
+  color:'green',
+  radius: 3,
+});
+
+jqSimpleConnect.connect(".elemC",".elemD", {
+  color:'green',
+  radius: 3,
+});
+
+jqSimpleConnect.connect(".elemD",".elemH", {
+  color:'green',
+  radius: 3,
+  anchorA: 'vertical',
+  anchorB: 'vertical',
+  roundedCorners: true
+});
+
+jqSimpleConnect.connect(".elemE",".elemF", {
+  color:'green',
+  radius: 3,
+});
+
+jqSimpleConnect.connect(".elemF",".elemG", {
+  color:'green',
+  radius: 3,
+});
+
+jqSimpleConnect.connect(".elemG",".elemH", {
+  color:'green',
+  radius: 3,
+});
+
+jqSimpleConnect.connect(".elemI",".elemJ", {
+  color:'green',
+  radius: 3,
+});
+
+jqSimpleConnect.connect(".elemI",".elemE", {
+  color:'green',
+  radius: 3,
+  anchorA:'horizontal',
+  anchorB:'vertical'
+});
+
+jqSimpleConnect.connect(".elemJ",".elemK", {
+  color:'green',
+  radius: 3,
+});
+}
+
 // function secCounter() {
 // 		if (elementInViewport(document.querySelector('.cirecle-percentage'))) {
 // 			$(window).off("scroll", secCounter);

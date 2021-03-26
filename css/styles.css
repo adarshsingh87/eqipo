@@ -577,6 +577,7 @@ body {
 	padding: 26px 5px;
 	margin: 20px;
 	cursor: pointer;
+	z-index: 1000;
 }
 
 .addon-container:hover {
@@ -1238,4 +1239,14 @@ p {
 	.line-test {
 		display: none;
 	}
+}
+
+.jqSimpleConnect {
+	background: repeating-linear-gradient( 90deg, transparent, transparent 2px, #06A3E4 2px, #06A3E4 4px);
+	background-color: transparent !important;
+}
+
+#jqSimpleConnect_8_1, #jqSimpleConnect_3_1 {
+	background: repeating-linear-gradient( 0deg, transparent, transparent 2px, #06A3E4 2px, #06A3E4 4px) !important;
+	background-color: transparent !important;
 }
