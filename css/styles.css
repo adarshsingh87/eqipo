@@ -474,7 +474,7 @@ body {
 .ideas-cont {
 	width: 232px;
 	height: 205px;
-	padding-bottom: 31px;
+	padding: 15px 12px;
 	margin: 10px auto;
 	overflow: hidden;
 }
@@ -486,7 +486,8 @@ body {
 
 .idea-text {
 	margin-top: 6px;
-	font-size: 12px;
+	font-weight: 500;
+	font-size: 16px;
 	line-height: 150%;
 	text-align: center;
 	letter-spacing: 0.2px;
@@ -715,7 +716,7 @@ p {
 
 /* animation */
 
-#Group-93 {
+/* #Group-93 {
 	opacity: 0;
 	transition: all 0.5s ease-in;
 	transition-delay: 1s;
@@ -814,7 +815,7 @@ p {
 	opacity: 0;
 	transition: all 0.5s ease-in;
 	transition-delay: 500ms;
-}
+} */
 
 .we-serve {
 	display: flex;
@@ -946,7 +947,6 @@ p {
 		max-width: 100vw;
 		height: 300px;
 		object-fit: cover;
-		transform: scale(1.3);
 		overflow: hidden;
 	}
 	.pad64 {
@@ -1252,9 +1252,10 @@ p {
 	background-color: transparent !important;
 }
 
-#jqSimpleConnect_8_1,
-#jqSimpleConnect_3_1,
-#jqSimpleConnect_11_1 {
+#jqSimpleConnect_5_1,
+#jqSimpleConnect_10_1,
+#jqSimpleConnect_0_1,
+#jqSimpleConnect_1_1 {
 	background: repeating-linear-gradient(
 		0deg,
 		transparent,
@@ -1429,4 +1430,9 @@ p {
 	100% {
 		opacity: 0;
 	}
+}
+
+.circle-connect-to-end {
+	display: flex;
+	justify-content: flex-end;
 }
