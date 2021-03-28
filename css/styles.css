@@ -1300,40 +1300,48 @@ p {
 }
 
 .adding-margin {
-	margin-top: 120px;
+	margin-top: 100px;
 }
 
 @media screen and (max-width: 960px) {
 	.adding-margin {
-		margin-top: 80px;
+		margin-top: 70px;
 	}
 }
 
 .animated span {
-	animation: topToBottom 12s linear infinite 0s;
-	-ms-animation: topToBottom 12s linear infinite 0s;
-	-webkit-animation: topToBottom 12s linear infinite 0s;
+	animation: topToBottom 24s linear infinite -8s;
+	-ms-animation: topToBottom 24s linear infinite -8s;
+	-webkit-animation: topToBottom 24s linear infinite -8s;
 	opacity: 0;
 	overflow: hidden;
 	position: absolute;
+	font-size: 40px;
+	line-height: 48px;
 }
 
+@media screen and (max-width: 960px) {
+	.animated span {
+		font-size: 22px;
+		line-height: 30px;
+	}
+}
 .animated span:nth-child(2) {
-	animation-delay: 2s;
-	-ms-animation-delay: 2s;
-	-webkit-animation-delay: 2s;
+	animation-delay: -4s;
+	-ms-animation-delay: -4s;
+	-webkit-animation-delay: -4s;
 }
 
 .animated span:nth-child(3) {
-	animation-delay: 4s;
-	-ms-animation-delay: 4s;
-	-webkit-animation-delay: 4s;
+	animation-delay: 0s;
+	-ms-animation-delay: 0s;
+	-webkit-animation-delay: 0s;
 }
 
 .animated span:nth-child(4) {
-	animation-delay: 6s;
-	-ms-animation-delay: 6s;
-	-webkit-animation-delay: 6s;
+	animation-delay: 4s;
+	-ms-animation-delay: 4s;
+	-webkit-animation-delay: 4s;
 }
 
 .animated span:nth-child(5) {
@@ -1343,9 +1351,9 @@ p {
 }
 
 .animated span:nth-child(6) {
-	animation-delay: 10s;
-	-ms-animation-delay: 10s;
-	-webkit-animation-delay: 10s;
+	animation-delay: 12s;
+	-ms-animation-delay: 12s;
+	-webkit-animation-delay: 12s;
 }
 
 @-moz-keyframes topToBottom {
