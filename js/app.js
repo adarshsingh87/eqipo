@@ -27,8 +27,8 @@ $('.sec-carousel').owlCarousel({
 		'<span class="uk-margin-small-right uk-icon" uk-icon="icon: chevron-left"></span>',
 		'<span class="uk-margin-small-left uk-icon" uk-icon="icon: chevron-right"></span>',
 	],
-  autoplay:true,
-  autoplayTimeout:2000,
+  // autoplay:true,
+  // autoplayTimeout:2000,
   autoplayHoverPause:true,
 	loop: true,
 	responsive: {
