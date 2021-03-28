@@ -42,20 +42,6 @@
 // 	}
 // }
 
-  jqSimpleConnect.connect(".circle-connect-1",".svg", {
-  color:'green',
-  radius: 3,
-  anchorA:'horizontal',
-  anchorB:'vertical'
-});
-
-  jqSimpleConnect.connect(".circle-connect-2",".svg", {
-  color:'green',
-  radius: 3,
-  anchorA:'horizontal',
-  anchorB:'vertical'
-});
-
 if (window.innerWidth >= 1200) {
   jqSimpleConnect.connect(".elemA",".elemB", {
   color:'green',
@@ -110,6 +96,20 @@ jqSimpleConnect.connect(".elemI",".elemE", {
 jqSimpleConnect.connect(".elemJ",".elemK", {
   color:'green',
   radius: 3,
+});
+
+    jqSimpleConnect.connect(".circle-connect-1",".circle-border", {
+  color:'green',
+  radius: 3,
+  anchorA:'horizontal',
+  anchorB:'vertical'
+});
+
+  jqSimpleConnect.connect(".circle-connect-2",".svg", {
+  color:'green',
+  radius: 3,
+  anchorA:'horizontal',
+  anchorB:'vertical'
 });
 }
 
