@@ -202,7 +202,7 @@ body {
 	font-size: 16px;
 	line-height: 137%;
 	letter-spacing: 0.3px;
-	color: #7783a8;
+	color: #000000;
 }
 
 .sec-page-desc {
@@ -213,7 +213,7 @@ body {
 	font-size: 16px;
 	line-height: 137%;
 	letter-spacing: 0.3px;
-	color: #7783a8;
+	color: #000000;
 	text-align: center;
 }
 
@@ -292,7 +292,7 @@ body {
 	font-size: 16px;
 	line-height: 137%;
 	letter-spacing: 0.3px;
-	color: #7783a8;
+	color: #000000;
 }
 
 .circle-wrap {
@@ -468,7 +468,7 @@ body {
 	line-height: 137%;
 	text-align: center;
 	letter-spacing: 0.3px;
-	color: #7783a8;
+	color: #000000;
 }
 
 .ideas-cont {
@@ -491,7 +491,7 @@ body {
 	line-height: 150%;
 	text-align: center;
 	letter-spacing: 0.2px;
-	color: #7783a8;
+	color: #000000;
 }
 
 .idea-text-heading {
@@ -707,7 +707,7 @@ p {
 	font-size: 16px;
 	line-height: 137%;
 	letter-spacing: 0.3px;
-	color: #7783a8;
+	color: #000000;
 }
 
 .we-serve-container {
@@ -1007,7 +1007,7 @@ p {
 	line-height: 137%;
 	text-align: center;
 	letter-spacing: 0.3px;
-	color: #7783a8;
+	color: #000000;
 }
 
 .hmm-main-container {
@@ -1095,7 +1095,7 @@ p {
 	line-height: 137%;
 	text-align: center;
 	letter-spacing: 0.3px;
-	color: #7783a8;
+	color: #000000;
 }
 
 .left-img-right-text,
@@ -1133,7 +1133,7 @@ p {
 	font-size: 16px;
 	line-height: 137%;
 	letter-spacing: 0.3px;
-	color: #7783a8;
+	color: #000000;
 }
 
 .right-a {
@@ -1188,7 +1188,7 @@ p {
 	background-color: transparent;
 	outline: none;
 	padding: 12px 24px;
-	border: 1px solid #7783a8;
+	border: 1px solid #000000;
 	box-sizing: border-box;
 	font-family: 'Inter';
 	font-weight: bold;
@@ -1196,7 +1196,7 @@ p {
 	line-height: 133%;
 	text-align: center;
 	letter-spacing: 0.0729135px;
-	color: #7783a8;
+	color: #000000;
 	border-radius: 30px;
 	margin: 15px;
 }
