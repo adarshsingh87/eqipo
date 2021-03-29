@@ -1449,7 +1449,7 @@ p {
 .circle-border {
 	border-radius: 50%;
 	border: 3px dashed #06A3E4;
-	margin: 150px 0;
+	margin: 120px 0;
 	background-color: #fff;
 	z-index: 1000;
 }
