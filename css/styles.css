@@ -1448,22 +1448,29 @@ p {
 
 .circle-border {
 	border-radius: 50%;
-	border: 3px dashed #06A3E4;
+	border: 3px dashed #06a3e4;
 	margin: 120px 0;
 	background-color: #fff;
 	z-index: 1000;
 }
 
-@media screen and (max-width: 960px) {
-	.circle-border {
-	border-radius: 50%;
-	border: 2px dashed #06A3E4;
-	margin: 0;
-	background-color: #fff;
-	z-index: 1000;
-}
+.w80 {
+	width: 80%;
 }
 
+@media screen and (max-width: 960px) {
+	.circle-border {
+		border-radius: 50%;
+		border: 2px dashed #06a3e4;
+		margin: 0;
+		background-color: #fff;
+		z-index: 1000;
+	}
+	.w80 {
+	width: 100%;
+}
+
+}
 
 @media screen and (max-width: 1200px) {
 	.bp1200 {
@@ -1476,11 +1483,11 @@ p {
 		width: 400px;
 	}
 	.circle-border {
-    width: fit-content;
-    border-radius: 50%;
-    border: 3px dashed #06A3E4;
-    margin: 50px 0;
-    background-color: #fff;
-    z-index: 1000;
-}
+		width: fit-content;
+		border-radius: 50%;
+		border: 3px dashed #06a3e4;
+		margin: 50px 0;
+		background-color: #fff;
+		z-index: 1000;
+	}
 }
