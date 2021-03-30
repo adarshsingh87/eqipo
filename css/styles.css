@@ -913,9 +913,20 @@ p {
 	margin-right: 15px;
 }
 
-.svg {
-	height: 645px;
-	width: 645px;
+.svg, .circle-border {
+	height: 550px;
+	width: 550px;
+}
+
+@media screen and (max-width: 1500px) {
+	.svg, .circle-border {
+	height: 441px;
+	width: 441px;
+}
+}
+
+.circle-border {
+	flex: auto;
 }
 
 .contact-us {
@@ -1479,8 +1490,8 @@ p {
 		margin: auto;
 	}
 	.svg {
-		height: 400px;
-		width: 400px;
+		height: 350px;
+		width: 350px;
 	}
 	.circle-border {
 		width: fit-content;
