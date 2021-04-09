@@ -84,9 +84,9 @@
 
 body {
 	background: linear-gradient(
-		178.91deg,
-		rgba(108, 220, 247, 0.3) 24.42%,
-		rgba(232, 247, 255, 0) 104.59%
+		0.19deg,
+		rgba(108, 220, 247, 0.2) 2.89%,
+		rgba(143, 216, 255, 0.2) 98.12%
 	);
 	background-size: 100vw 650px;
 	background-repeat: no-repeat;
@@ -1266,10 +1266,8 @@ p {
 	background-color: transparent !important;
 }
 
-#jqSimpleConnect_10_1,
-#jqSimpleConnect_11_1,
-#jqSimpleConnect_3_1,
-#jqSimpleConnect_8_1 {
+#jqSimpleConnect_0_1,
+#jqSimpleConnect_1_1 {
 	background: repeating-linear-gradient(
 		0deg,
 		transparent,
@@ -1278,33 +1276,6 @@ p {
 		#06a3e4 4px
 	) !important;
 	background-color: transparent !important;
-}
-
-@media screen and (max-width: 1200px) {
-	#jqSimpleConnect_8_1,
-	#jqSimpleConnect_1_1,
-	#jqSimpleConnect_3_1 {
-		background: repeating-linear-gradient(
-			90deg,
-			transparent,
-			transparent 2px,
-			#06a3e4 2px,
-			#06a3e4 4px
-		) !important;
-		background-color: transparent !important;
-	}
-	#jqSimpleConnect_2_1,
-	#jqSimpleConnect_4_1,
-	#jqSimpleConnect_9_1 {
-		background: repeating-linear-gradient(
-			0deg,
-			transparent,
-			transparent 2px,
-			#06a3e4 2px,
-			#06a3e4 4px
-		) !important;
-		background-color: transparent !important;
-	}
 }
 
 .circle-connect-1,
@@ -1323,134 +1294,38 @@ p {
 	}
 }
 
-.animated span {
-	animation: topToBottom 24s linear infinite -8s;
-	-ms-animation: topToBottom 24s linear infinite -8s;
-	-webkit-animation: topToBottom 24s linear infinite -8s;
-	opacity: 0;
-	overflow: hidden;
-	position: absolute;
+.animated {
 	font-size: 40px;
 	line-height: 48px;
+	height: 96px;
+	overflow: scroll;
+	scrollbar-width: none;
+	scroll-behavior: smooth;
+	/* pointer-events: visible; */
 }
+
+.animated::-webkit-scrollbar {
+	display: none;
+}
+
+.animated span {
+	display: block;
+}
+
+/* .test-1 {
+	transform: translateY(-96px);
+}
+
+.test-2 {
+	transform: translateY(-192px);
+} */
 
 @media screen and (max-width: 960px) {
-	.animated span {
+	.animated {
 		font-size: 22px;
 		line-height: 30px;
-	}
-}
-.animated span:nth-child(2) {
-	animation-delay: -4s;
-	-ms-animation-delay: -4s;
-	-webkit-animation-delay: -4s;
-}
-
-.animated span:nth-child(3) {
-	animation-delay: 0s;
-	-ms-animation-delay: 0s;
-	-webkit-animation-delay: 0s;
-}
-
-.animated span:nth-child(4) {
-	animation-delay: 4s;
-	-ms-animation-delay: 4s;
-	-webkit-animation-delay: 4s;
-}
-
-.animated span:nth-child(5) {
-	animation-delay: 8s;
-	-ms-animation-delay: 8s;
-	-webkit-animation-delay: 8s;
-}
-
-.animated span:nth-child(6) {
-	animation-delay: 12s;
-	-ms-animation-delay: 12s;
-	-webkit-animation-delay: 12s;
-}
-
-@-moz-keyframes topToBottom {
-	0% {
-		opacity: 0;
-	}
-	30% {
-		opacity: 0;
-		-moz-transform: translateY(40px);
-	}
-	45% {
-		opacity: 1;
-		-moz-transform: translateY(0px);
-	}
-	50% {
-		opacity: 1;
-		-moz-transform: translateY(0px);
-	}
-	60% {
-		opacity: 0;
-		-moz-transform: translateY(-40px);
-	}
-	75% {
-		opacity: 0;
-	}
-	100% {
-		opacity: 0;
-	}
-}
-
-@-webkit-keyframes topToBottom {
-	0% {
-		opacity: 0;
-	}
-	30% {
-		opacity: 0;
-		-webkit-transform: translateY(40px);
-	}
-	45% {
-		opacity: 1;
-		-webkit-transform: translateY(0px);
-	}
-	50% {
-		opacity: 1;
-		-webkit-transform: translateY(0px);
-	}
-	60% {
-		opacity: 0;
-		-webkit-transform: translateY(-40px);
-	}
-	75% {
-		opacity: 0;
-	}
-	100% {
-		opacity: 0;
-	}
-}
-
-@-ms-keyframes topToBottom {
-	0% {
-		opacity: 0;
-	}
-	30% {
-		opacity: 0;
-		-ms-transform: translateY(40px);
-	}
-	45% {
-		opacity: 1;
-		-ms-transform: translateY(0px);
-	}
-	50% {
-		opacity: 1;
-		-ms-transform: translateY(0px);
-	}
-	60% {
-		opacity: 0;
-		-ms-transform: translateY(-40px);
-	}
-	75% {
-		opacity: 0;
-	}
-	100% {
-		opacity: 0;
+		height: 60px;
+		pointer-events: none;
 	}
 }
 

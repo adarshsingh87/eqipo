@@ -137,4 +137,6 @@ function openCity(evt, cityName) {
 }
 
 const links = document.querySelectorAll('.tablinks')
-links[0].click()
+if ( links[0] != undefined) {
+	links[0].click()
+}
