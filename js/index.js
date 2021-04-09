@@ -61,7 +61,7 @@ if (window.innerWidth >= 1200) {
   anchorB:'vertical'
 });
 
-  jqSimpleConnect.connect(".circle-connect-2",".svg", {
+  jqSimpleConnect.connect(".circle-connect-2",".circle-border", {
   color:'green',
   radius: 3,
   anchorA:'horizontal',
