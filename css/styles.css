@@ -1364,10 +1364,11 @@ p {
 
 .circle-border {
 	border-radius: 50%;
-	border: 3px dashed #06a3e4;
+	border: 3px dotted #06a3e4;
 	margin: 40px 0;
 	background-color: #fff;
 	z-index: 1000;
+	align-items: center;
 }
 
 .w80 {
@@ -1404,7 +1405,6 @@ p {
 		height: 350px;
 		width: 350px;
 		border-radius: 50%;
-		border: 3px dashed #06a3e4;
 		margin: 50px 0;
 		background-color: #fff;
 		z-index: 1000;
