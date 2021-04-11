@@ -281,7 +281,7 @@
         <div class="hex-pyramid-bg pad64">
           <div class="container-sm">
             <div class="sudo-title" style="margin-bottom: 0; margin-top: 60px;">Empower Teams, Simplify Care</div>
-            <img src="./assets/hex-pyramid.svg" alt="hex pyramid" style="display: block; margin: auto;">
+            <img src="./assets/hex-pyramid.svg" loading='lazy' alt="hex pyramid" style="display: block; margin: auto;">
           </div>
         </div>
 
@@ -289,27 +289,29 @@
           <div class="hero-section-flex bp1200">
             <div style="z-index: 1000;">
               <div class="hero-img circle-border">
-                <iframe src='./assets/animated-svg.svg' frameborder="0" id="iframe" class="svg"></iframe>
-                <script>
+                <iframe src='' frameborder="0" id="iframe" class="svg">
+                </iframe>
+                <!-- <script>
                   setInterval(function(){document.getElementById('iframe').src = document.getElementById('iframe').src;}, 7500)
-                </script>
+                </script> -->
               </div>
             </div>
           <div class="hero-heading-temp">
             <div class="hero-headings-new">
-              <div style="display: flex;" class="ttemp"><div class="teams-title circle-connect-1">Connected. Informed. Engaged.</div></div>
-              <div class="teams-desc">Equipo's integrated care delivery platform simplifies care management to optimize value-based
+              <div style="display: flex;" class="ttemp"><div class="teams-title circle-connect-1" style="font-size: 32px; line-height: 39px;">Connected. Informed. Engaged.</div></div>
+              <div class="teams-desc-new">Equipo's integrated care delivery platform simplifies care management to optimize value-based
                 performance,
                 reimbursements and saving for providers and payers while ensuring no patient is left behind.
               </div>
             </div>
             <div class="hero-headings-new">
-              <div class="teams-title">Care Delivery Redefined.</div>
-              <div style="display: flex;">
-                <div class="teams-desc circle-connect-2">
+              <div class="teams-title" style="font-size: 32px; line-height: 39px;">Care Delivery Redefined.</div>
+              <div style="display: flex; flex-direction: column;">
+                <div class="teams-desc-new">
                   It's our smart, end-to-end platform that connects providers to patient information networks that are intelligently mined
                   for insights that optimize care. It prioritizes activities and enables structured workflows so that a care manager's
                   work seamlessly improves outcomes and increases revenue.</div>
+                  <div class="circle-connect-2" style="font-size: 2px;">&nbsp;</div>
                 </div>
               </div>
             </div>
@@ -323,7 +325,7 @@
           <div class="owl-carousel sec-carousel owl-theme">
             <div class="item">
               <div class="carousel-elem-container">
-                <img loading='lazy' src="./assets/open-quote.svg" alt="open quote" style="position: relative;top: -30px;" class="quote">
+                <img loading='lazy' src="./assets/open-quote.svg" alt="open quote" class="quote quote-right">
                 <div class="testimonial-container">
                   <div class="testimonial-img">
                     <img src="./assets/testimonial/Rectangle 30.png" alt="testimonial">
@@ -345,20 +347,20 @@
     <div class="mb120 container-sm">
       <div class="hero-section-flex mb120 flex-col-rev">
         <div>
-          <div class="teams-title">EMR-Adjacent So You Can Expand What You Do With What You Already Have</div>
+          <div class="teams-title"><span style="font-size: 32px;">EMR-Adjacent</span><br><span style="font-size: 24px;"> So You Can Expand What You Do <br> With What You Already Have</span></div>
           <div class="teams-desc">We created a series of workflow solutions that extend our existing EMR to fill gaps in care management. Our EMR and
           Payer Data governance and integration protocols ensure seamless connectivity and data transfer.</div>
         </div>
         <div class="hero-img" style="justify-content: end;">
-          <img loading='lazy' src="./assets/EMR.png" alt="img" class="w80">
+          <img loading='lazy' src="./assets/EMR.png" alt="img" class="w80" style="border-radius: 16px;">
         </div>
       </div>
       <div class="hero-section-flex">
         <div class="hero-img">
-          <img loading='lazy' src="./assets/info.png" alt="img" class="w80">
+          <img loading='lazy' src="./assets/info.png" alt="img" class="w80" style="border-radius: 16px;">
         </div>
         <div>
-          <div class="teams-title">Information Management <br> (and Data Simplification) Drive Patient-Centric Care</div>
+          <div class="teams-title"><span style="font-size: 32px;">Information Management</span><br><span style="font-size: 24px;">Drive Patient-Centric Care <br> With Data Simplification</span></div>
           <div class="teams-desc">We centralise inputs across providers, payers, Rxand other networks on a single, end-to-end platform for better patient
           care. This increases efficiency and increases care coordination.</div>
         </div>
@@ -450,17 +452,19 @@
       </div>
     </div>
 
-    <div class="container-sm">
-      <div class="we-serve-container">
-        <div class="sudo-title">Our Clients</div>
-        <div class="align-stuff">
-          <img loading='lazy' src="./assets/client1.png" alt="client" class="clients">
-          <img loading='lazy' src="./assets/client2.png" alt="client" class="clients">
-          <img loading='lazy' src="./assets/client3.png" alt="client" class="clients">
-          <img loading='lazy' src="./assets/client4.png" alt="client" class="clients">
-          <img loading='lazy' src="./assets/client5.png" alt="client" class="clients">
-          <img loading='lazy' src="./assets/client6.png" alt="client" class="clients">
-        </div>
+    <div class="pad64 testmonial-bg">
+      <div class="container-sm">
+        <div class="we-serve-container">
+          <div class="sudo-title">Our Clients</div>
+          <div class="align-stuff">
+            <img loading='lazy' src="./assets/client1.png" alt="client" class="clients">
+            <img loading='lazy' src="./assets/client2.png" alt="client" class="clients">
+            <img loading='lazy' src="./assets/client3.png" alt="client" class="clients">
+            <img loading='lazy' src="./assets/client4.png" alt="client" class="clients">
+            <img loading='lazy' src="./assets/client5.png" alt="client" class="clients">
+            <img loading='lazy' src="./assets/client6.png" alt="client" class="clients">
+          </div>
+          </div>
         </div>
       </div>
     </div>
