@@ -66,8 +66,10 @@ function elementInViewport(el) {
 
 $(window).scroll(secCounter);
 
+var srcOnlyOnce = 0
+
 function secCounter() {
-		if (elementInViewport(document.querySelector('.cirecle-percentage'))) {
+		if (elementInViewport(document.querySelector('.circle-percentage-title'))) {
 			$(window).off("scroll", secCounter);
 			$('.trigger').addClass('animate');
 		$('.temp').each(function () {
@@ -80,6 +82,10 @@ function secCounter() {
             }
         });
     });
+	}
+	if (elementInViewport(document.querySelector('.circle-border')) && srcOnlyOnce===0) {
+    document.getElementById('iframe').src = './assets/animated-svg.svg'
+    srcOnlyOnce=1
 	}
   //   if ($(window).scrollTop() > $('.cirecle-percentage').scrollTop()) {
 	// 		$(window).off("scroll", secCounter);

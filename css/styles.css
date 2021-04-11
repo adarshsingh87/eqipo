@@ -133,6 +133,7 @@ body {
 .hero-section-flex {
 	display: flex;
 	flex-direction: row-reverse;
+	flex-basis: 1;
 }
 
 .hero-heading,
@@ -275,7 +276,7 @@ body {
 }
 
 .teams-title {
-	max-width: 538px;
+	/* max-width: 538px; */
 	font-family: 'Inter';
 	font-weight: bold;
 	line-height: 28px;
@@ -283,13 +284,27 @@ body {
 }
 
 .teams-desc {
-	max-width: 445px;
+	/* max-width: 445px; */
 	font-family: 'Inter';
 	font-weight: 500;
 	font-size: 20px;
 	line-height: 137%;
 	letter-spacing: 0.3px;
 	color: #000000;
+	margin-top: 15px;
+}
+
+.team-img {
+	border-radius: 16px;
+	width: 90%;
+}
+
+@media screen and (max-width: 960px) {
+	.team-img {
+		border-radius: 16px;
+		width: 100%;
+		margin-bottom: 15px;
+	}
 }
 
 .teams-desc-new {
@@ -666,8 +681,8 @@ p {
 }
 
 .quote {
-	width: 48px !important;
-	height: 39px !important;
+	width: 33px !important;
+	height: 27px !important;
 }
 
 /* .owl-stage {
@@ -852,8 +867,16 @@ p {
 	text-align: center;
 	letter-spacing: 0.1px;
 	color: #053d76;
-	margin-top: 16px;
 	overflow: hidden;
+	margin-bottom: 15px;
+}
+
+.we-serve-text {
+	font-family: 'Inter';
+	font-size: 16px;
+	line-height: 19px;
+	text-align: center;
+	color: #7783a8;
 }
 
 .clients {
@@ -1348,7 +1371,7 @@ p {
 }
 
 .w80 {
-	width: 80%;
+	width: 50%;
 }
 
 .ttemp {
@@ -1361,6 +1384,9 @@ p {
 	}
 	.ttemp {
 		width: auto;
+	}
+	.circle-border {
+		margin: 0 auto !important;
 	}
 }
 
@@ -1407,11 +1433,12 @@ p {
 .testimonial-container {
 	display: flex;
 	align-items: center;
-	margin: -39px 0;
+	margin: -27px 0;
 }
 
 .testimonial-img img {
 	min-width: 198px;
+	border-radius: 8px 0px 0px 8px;
 }
 
 .testimonial-quote {
@@ -1455,6 +1482,7 @@ p {
 	}
 	.testimonial-img img {
 		width: 100%;
+		border-radius: 8px 8px 0px 0px;
 	}
 	.testimonial-quote {
 		margin: 0;
