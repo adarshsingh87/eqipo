@@ -311,9 +311,10 @@ body {
 	max-width: 445px;
 	font-family: 'Inter';
 	font-size: 20px;
+	font-weight: 500;
 	line-height: 150%;
 	letter-spacing: 0.3px;
-	color: #828282;
+	color: #000000;
 }
 
 .circle-wrap {
@@ -494,8 +495,7 @@ body {
 
 .ideas-cont {
 	width: 232px;
-	height: 205px;
-	padding: 15px 12px;
+	height: 195px;
 	margin: 10px auto;
 	overflow: hidden;
 }
@@ -1286,9 +1286,9 @@ p {
 	background: repeating-linear-gradient(
 		90deg,
 		transparent,
-		transparent 2px,
-		#06a3e4 2px,
-		#06a3e4 4px
+		transparent 3px,
+		#06a3e4 3px,
+		#06a3e4 6px
 	) !important;
 	background-color: transparent !important;
 }
@@ -1298,9 +1298,9 @@ p {
 	background: repeating-linear-gradient(
 		0deg,
 		transparent,
-		transparent 2px,
-		#06a3e4 2px,
-		#06a3e4 4px
+		transparent 3px,
+		#06a3e4 3px,
+		#06a3e4 6px
 	) !important;
 	background-color: transparent !important;
 }
