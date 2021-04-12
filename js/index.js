@@ -159,6 +159,24 @@ window.onload = (e) => {
 // 	// }
 // }
 
+const laptopSer = document.getElementById('laptop-hex-stuff')
+const tabSer = document.getElementById('tab960-hex-stuff')
+const phoneSer = document.getElementById('phone-hex-stuff')
+
+if ( window.innerWidth > 1440 ) {
+  laptopSer.style.display = 'block'
+  tabSer.style.display = 'none'
+  phoneSer.style.display = 'none'
+} else if ( window.innerWidth <= 1440 && window.innerWidth > 960 ) {
+  phoneSer.style.display = 'none'
+  laptopSer.style.display = 'none'
+  tabSer.style.display = 'block'
+} else {
+  phoneSer.style.display = 'block'
+  laptopSer.style.display = 'none'
+  tabSer.style.display = 'none'
+}
+
 $('.animated').bind("mousewheel", function() {
     return false;
 });
