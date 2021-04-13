@@ -83,7 +83,7 @@ function secCounter() {
         });
     });
 	}
-	if (elementInViewport(document.querySelector('.circle-border')) && srcOnlyOnce===0) {
+	else if (elementInViewport(document.querySelector('.circle-border')) && srcOnlyOnce===0) {
     document.getElementById('iframe').src = './assets/animated-svg.svg'
     srcOnlyOnce=1
 	}
