@@ -622,7 +622,7 @@ body {
 }
 
 .mb120 {
-	margin-bottom: 120px !important;
+	margin-bottom: 70px !important;
 }
 
 /* ! carousel */
@@ -1477,6 +1477,18 @@ p {
 	position: relative;
 	top: -63px;
 	left: 61%;
+	display: none;
+}
+
+.testimonial-heading::after {
+	background-image: url(../assets/close-quote.svg);
+	content: '';
+	width: 33px;
+	height: 27px;
+	display: inline-block;
+	background-size: 33px 27px;
+	margin-left: 10px;
+	margin-bottom: -15px;
 }
 
 .quote-right {
@@ -1505,11 +1517,12 @@ p {
 		display: none !important;
 	}
 	.testimonial-heading::before {
-		content: url(../assets/open-quote.svg);
-	}
-	.testimonial-heading::after {
-		content: url(../assets/close-quote.svg);
-		float: right;
+		background-image: url(../assets/open-quote.svg);
+		content: '';
+		width: 33px;
+		height: 27px;
+		display: inline-block;
+		background-size: 33px 27px;
 	}
 }
 
