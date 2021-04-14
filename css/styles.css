@@ -225,7 +225,7 @@ body {
 	box-sizing: border-box;
 	padding: 12px;
 	border-radius: 6px;
-	width: 153px;
+	width: fit-content;
 	font-family: 'Inter';
 	font-weight: bold;
 	font-size: 16px;
@@ -287,7 +287,7 @@ body {
 	/* max-width: 445px; */
 	font-family: 'Inter';
 	font-weight: 500;
-	font-size: 20px;
+	font-size: 18px;
 	line-height: 137%;
 	letter-spacing: 0.3px;
 	color: #000000;
