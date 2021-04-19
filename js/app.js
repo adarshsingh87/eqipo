@@ -19,31 +19,6 @@ jQuery(function ($) {
 		})
 })
 
-$('.sec-carousel').owlCarousel({
-	stagePadding: 15,
-	margin: 10,
-	nav: true,
-	navText: [
-		'<span class="uk-margin-small-right uk-icon" uk-icon="icon: chevron-left"></span>',
-		'<span class="uk-margin-small-left uk-icon" uk-icon="icon: chevron-right"></span>',
-	],
-  // autoplay:true,
-  // autoplayTimeout:2000,
-  autoplayHoverPause:true,
-	loop: true,
-	responsive: {
-		0: {
-			items: 1,
-		},
-		640: {
-			items: 1,
-		},
-		960: {
-			items: 1,
-		},
-	},
-} )
-
 function elementInViewport(el) {
   var top = el.offsetTop;
   var left = el.offsetLeft;
@@ -69,7 +44,7 @@ $(window).scroll(secCounter);
 var srcOnlyOnce = 0
 
 function secCounter() {
-		if (elementInViewport(document.querySelector('.circle-percentage-title'))) {
+		if (elementInViewport(document.querySelector('.cirecle-percentage'))) {
 			$(window).off("scroll", secCounter);
 			$('.trigger').addClass('animate');
 		$('.temp').each(function () {
@@ -83,14 +58,15 @@ function secCounter() {
         });
     });
 	}
-	else if (elementInViewport(document.querySelector('.desk-only')) && srcOnlyOnce===0) {
+	else if (document.querySelector('.desk-only') || document.querySelector('.mob-only')) {
+		if (elementInViewport(document.querySelector('.desk-only')) && srcOnlyOnce===0) {
 		document.getElementById('desk-iframe').src = './assets/animated-svg.svg'
 		srcOnlyOnce=1
 	}
 	else if (elementInViewport(document.querySelector('.mob-only')) && srcOnlyOnce===0) {
     document.getElementById('mob-iframe').src = './assets/animated-svg.svg'
     srcOnlyOnce=1
-	}
+	}}
   //   if ($(window).scrollTop() > $('.cirecle-percentage').scrollTop()) {
 	// 		$(window).off("scroll", secCounter);
 	// 	$('.temp').each(function () {
