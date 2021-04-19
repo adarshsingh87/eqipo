@@ -83,8 +83,12 @@ function secCounter() {
         });
     });
 	}
-	else if (elementInViewport(document.querySelector('.circle-border')) && srcOnlyOnce===0) {
-    document.getElementById('iframe').src = './assets/animated-svg.svg'
+	else if (elementInViewport(document.querySelector('.desk-only')) && srcOnlyOnce===0) {
+		document.getElementById('desk-iframe').src = './assets/animated-svg.svg'
+		srcOnlyOnce=1
+	}
+	else if (elementInViewport(document.querySelector('.mob-only')) && srcOnlyOnce===0) {
+    document.getElementById('mob-iframe').src = './assets/animated-svg.svg'
     srcOnlyOnce=1
 	}
   //   if ($(window).scrollTop() > $('.cirecle-percentage').scrollTop()) {
