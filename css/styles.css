@@ -286,7 +286,6 @@ body {
 .teams-desc {
 	/* max-width: 445px; */
 	font-family: 'Inter';
-	font-weight: 500;
 	font-size: 18px;
 	line-height: 137%;
 	letter-spacing: 0.3px;
@@ -311,7 +310,6 @@ body {
 	max-width: 445px;
 	font-family: 'Inter';
 	font-size: 18px;
-	font-weight: 500;
 	line-height: 150%;
 	letter-spacing: 0.3px;
 	color: #000000;
@@ -507,7 +505,6 @@ body {
 
 .idea-text {
 	margin-top: 6px;
-	font-weight: 500;
 	font-size: 16px;
 	line-height: 150%;
 	text-align: center;
