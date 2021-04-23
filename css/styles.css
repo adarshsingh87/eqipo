@@ -67,6 +67,19 @@
 	min-width: 200px !important;
 }
 
+.two-col-test {
+	width: 400px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+@media screen and (max-width: 1000px) {
+	.two-col-test {
+		width: auto;
+		display: block;
+	}
+}
+
 .dropdown-item {
 	padding: 12px !important;
 }
@@ -100,7 +113,7 @@ body {
 }
 
 .spec-page-herosec {
-	min-height: 350px !important;
+	min-height: 300px !important;
 }
 
 @media screen and (max-width: 960px) {
