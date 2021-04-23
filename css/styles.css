@@ -1616,3 +1616,18 @@ p {
 	padding: 58px 18px;
 	margin: 15px 0;
 }
+
+.new-page-left-img {
+	width: 100%;
+}
+
+@media screen and (min-width: 2000px) {
+	.left-title {
+		max-width: max-content;
+		font-size: 38px;
+	}
+	.left-desc {
+		max-width: max-content;
+		font-size: 20px;
+	}
+}
