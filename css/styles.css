@@ -224,7 +224,7 @@ body {
 }
 
 .sec-page-desc {
-	max-width: 540px;
+	max-width: 790px;
 	margin: 16px auto !important;
 	margin: 18px 0;
 	font-family: 'Inter';
@@ -579,7 +579,6 @@ body {
 }
 
 .hmm-title {
-	max-width: 871px;
 	margin: auto !important;
 	font-weight: 800;
 	font-size: 32px;
