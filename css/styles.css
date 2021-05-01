@@ -1633,3 +1633,12 @@ p {
 		font-size: 20px;
 	}
 }
+
+.add-care-cont {
+	margin-top: 32px;
+	display: flex;
+	flex: 1;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
