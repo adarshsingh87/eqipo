@@ -1673,6 +1673,11 @@ p {
 		margin-top: 30px;
 		text-align: center;
 	}
+	.right-img-left-text > div >img ,
+	.left-img-right-text > div > img {
+		display: block;
+		margin: auto;
+	}
 }
 
 .serve-align {
