@@ -1644,12 +1644,16 @@ p {
 }
 
 .serve-extra-cont {
-	max-width: 730px;
+	max-width: 830px;
 	margin: 100px auto;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	flex-direction: row-reverse;
+}
+
+.serve-extra-cont img {
+	margin: 10px;
 }
 
 .serve-row {
