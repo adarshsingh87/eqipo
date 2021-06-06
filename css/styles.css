@@ -1601,7 +1601,7 @@ p {
 	background: #053d76;
 	box-shadow: 5px 20px 24px rgba(0, 0, 0, 0.2);
 	border-radius: 8px;
-	transform: matrix(1, -0.04, 0, 1, 0, 0);
+	transform: matrix(1, -0.04, 0, 1, 0, 0) !important;
 	padding: 50px 18px;
 	padding-top: 37px;
 	margin: 15px 0;
@@ -1613,7 +1613,7 @@ p {
 	background: #053d76;
 	box-shadow: -5px 20px 24px rgba(0, 0, 0, 0.2);
 	border-radius: 8px;
-	transform: matrix(1, 0.04, 0, 1, 0, 0);
+	transform: matrix(1, 0.04, 0, 1, 0, 0) !important;
 	padding: 50px 18px;
 	padding-top: 37px;
 	margin: 15px 0;
