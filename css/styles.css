@@ -1770,3 +1770,137 @@ p {
 	border: none;
 	cursor: pointer;
 }
+
+.form-cont {
+	display: flex;
+	box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+	border-radius: 16px;
+	margin: 60px 0;
+	box-sizing: border-box;
+	margin-top: 15vh;
+}
+
+.form {
+	width: 60%;
+	padding: 40px;
+	box-sizing: border-box;
+}
+
+.side-info {
+	width: 40%;
+	background: #053D76;
+	padding: 60px;
+	border-radius: 0px 16px 16px 0px;
+	box-sizing: border-box;
+}
+
+.name-part {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	column-gap: 30px;
+	margin-bottom: 30px;
+	box-sizing: border-box;
+}
+
+input,
+select,
+option {
+	border: none;
+	width: 100%;
+	font-size: 16px;
+	padding: 10px 10px;
+	background: #f2f2f2;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+.input-heading {
+	color: #7a7f8c;
+}
+
+#message {
+	background: #f2f2f2;
+	border-radius: 4px;
+	padding: 12px 0px 0px 12px;
+	width: 100%;
+	font-size: 16px;
+	height: 150px;
+	border: none;
+	resize: none;
+	box-sizing: border-box;
+}
+
+.center-btn {
+	display: flex;
+	justify-content: center;
+}
+
+.form-submit-btn {
+	font-size: 24px;
+	line-height: 130%;
+	padding: 20px 50px;
+	border-radius: 32px;
+	margin-top: 40px;
+	align-self: center;
+	background: #053D76;
+	color: white;
+	border: none;
+	cursor: pointer;
+}
+
+.side-info {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.top-info-block {
+	margin: 40px 0;
+	margin-left: 60px;
+	color: white;
+	display: flex;
+	align-content: center;
+}
+
+.top-info-block img {
+	margin-right: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+	.form-cont {
+		display: block;
+		margin: 30px 0;
+	}
+	.form {
+		width: 100%;
+		padding: 20px;
+	}
+	.side-info {
+		width: 100%;
+		padding: 30px;
+		border-radius: 0px 0px 16px 16px;
+	}
+	.name-part {
+		column-gap: 10px;
+	}
+	#message {
+		height: 150px;
+	}
+	.form-submit-btn {
+		padding: 15px 50px;
+		border-radius: 18px;
+		margin-top: 20px;
+		align-self: center;
+	}
+}
+
+@media screen and (max-width: 550px) {
+	.name-part {
+		display: block;
+		margin-bottom: 20px;
+	}
+	.fname,
+	.lname {
+		margin: 20px 0;
+	}
+}
