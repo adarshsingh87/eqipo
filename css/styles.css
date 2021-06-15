@@ -1677,7 +1677,7 @@ p {
 		margin-top: 30px;
 		text-align: center;
 	}
-	.right-img-left-text > div >img ,
+	.right-img-left-text > div > img,
 	.left-img-right-text > div > img {
 		display: block;
 		margin: auto;
@@ -1788,7 +1788,7 @@ p {
 
 .side-info {
 	width: 40%;
-	background: #053D76;
+	background: #053d76;
 	padding: 60px;
 	border-radius: 0px 16px 16px 0px;
 	box-sizing: border-box;
@@ -1842,7 +1842,7 @@ option {
 	border-radius: 32px;
 	margin-top: 40px;
 	align-self: center;
-	background: #053D76;
+	background: #053d76;
 	color: white;
 	border: none;
 	cursor: pointer;
@@ -1903,4 +1903,44 @@ option {
 	.lname {
 		margin: 20px 0;
 	}
+}
+
+.career-cont {
+	margin-top: 74px;
+	height: 436px;
+	background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+		url(../assets/career.png);
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.updated-align {
+	display: inline-flex;
+	flex-wrap: wrap;
+	gap: 30px;
+	justify-content: center;
+}
+
+.job-cont {
+	width: 540px;
+	height: 109px;
+	background: #ffffff;
+	box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.08);
+	border-radius: 16px;
+	box-sizing: border-box;
+	padding: 40px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	cursor: pointer;
+}
+
+.job-cont > div {
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 29px;
+	color: #000000;
 }
