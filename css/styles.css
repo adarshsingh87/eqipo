@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@100;200;300;400;500;600;700;800;900&display=swap');
 * {
 	font-family: 'Inter';
 	box-sizing: border-box;
@@ -1943,4 +1944,53 @@ option {
 	font-size: 24px;
 	line-height: 29px;
 	color: #000000;
+}
+
+.team-btn {
+	display: block;
+	font-family: 'Mulish';
+	cursor: pointer;
+	margin: 20px auto;
+	background: #053d76;
+	border: none;
+	padding: 12px 18px;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 18px;
+	color: #ffffff;
+}
+
+.team-card {
+	width: 350px;
+	height: 374px;
+	background: #ffffff;
+	border: 2px solid #e2f8fd;
+	box-sizing: border-box;
+	border-radius: 16px;
+	padding: 24px;
+}
+
+.team-card > img {
+	width: 200px;
+	height: 200px;
+	display: block;
+	margin: auto;
+	margin-bottom: 24px;
+	border-radius: 50%;
+}
+
+.member-name {
+	font-weight: bold;
+	font-size: 32px;
+	line-height: 40px;
+	text-align: center;
+	color: #053d76;
+}
+
+.member-position {
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 40px;
+	text-align: center;
+	color: #053d76;
 }
