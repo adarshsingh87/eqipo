@@ -1994,3 +1994,39 @@ option {
 	text-align: center;
 	color: #053d76;
 }
+
+@media screen and (max-width: 1000px) {
+	.blogs-cards-container {
+		width: 90%;
+	}
+	.left-row {
+		flex-direction: column;
+	}
+	.col {
+		width: 100%;
+	}
+	.sols-cont {
+		margin: 50px 0;
+		max-height: 2000px;
+	}
+	.sols-text-right {
+		padding: 0 10px;
+		box-sizing: border-box;
+	}
+	.sols-title {
+		font-size: 26px;
+	}
+	.sols-info {
+		font-size: 14px;
+	}
+	.read-more-btn {
+		font-size: 16px;
+		padding: 10px 20px;
+		margin: 20px 10px;
+	}
+	.blog-iframe {
+		width: 90vw;
+		height: calc(90vw * 9 / 16);
+		margin: 20px 0;
+	}
+}
