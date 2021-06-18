@@ -1755,6 +1755,14 @@ p {
 	color: #1c4670;
 }
 
+.case-study-title {
+	font-size: 24px;
+	margin: 5px 0;
+	font-weight: 500;
+	line-height: 130%;
+	color: #1c4670;
+}
+
 .sols-info {
 	font-size: 20px;
 	line-height: 26px;
@@ -1763,6 +1771,17 @@ p {
 
 .read-more-btn {
 	padding: 15px 40px;
+	border-radius: 8px;
+	font-size: 20px;
+	line-height: 130%;
+	background: #2f80ed;
+	color: white;
+	border: none;
+	cursor: pointer;
+}
+
+.read-more-case-study {
+	padding: 10px 20px;
 	border-radius: 8px;
 	font-size: 20px;
 	line-height: 130%;
@@ -1789,7 +1808,9 @@ p {
 
 .side-info {
 	width: 40%;
-	background: #053d76;
+	background-image: url(../assets/contact_bg.jpg);
+	background-size: cover;
+	background-position: right center;
 	padding: 60px;
 	border-radius: 0px 16px 16px 0px;
 	box-sizing: border-box;
@@ -2029,4 +2050,122 @@ option {
 		height: calc(90vw * 9 / 16);
 		margin: 20px 0;
 	}
+}
+
+.marquee-animation {
+	overflow: hidden;
+	display: flex;
+}
+
+.marquee-animation-div {
+	display: flex;
+	animation: marquee 30s linear infinite;
+	justify-content: space-around;
+}
+
+.marquee-animation:hover .marquee-animation-div {
+	animation-play-state: paused;
+}
+
+@keyframes marquee {
+	0% {
+		transform: translateX(0%);
+	}
+	100% {
+		transform: translateX(-100%);
+	}
+}
+
+.image-container {
+	min-width: 140px;
+	margin: 20px;
+	display: flex;
+}
+.image-container img {
+	display: block;
+	justify-self: center;
+	align-self: center;
+	margin: 0 auto;
+}
+
+.twitter-timeline-div {
+	width: 310px;
+	height: 500px;
+	overflow-y: scroll;
+}
+
+.modalDialog {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.8);
+	z-index: 99999;
+	opacity: 0;
+	-webkit-transition: opacity 100ms ease-in;
+	-moz-transition: opacity 100ms ease-in;
+	transition: opacity 100ms ease-in;
+	pointer-events: none;
+}
+.modalDialog:target {
+	opacity: 1;
+	pointer-events: auto;
+}
+.modalDialog > div {
+	width: 90%;
+	position: relative;
+	margin: 10% auto;
+	border-radius: 3px;
+	background: #fff;
+	transform: translateY(-10%);
+}
+@media screen and (max-width: 960px) {
+	.modalDialog > div {
+	transform: translateY(0%);
+}
+}
+.modalDialog > div > div {
+	height: 80vh;
+	overflow-y: scroll;
+	position: relative;
+	margin: 10% auto;
+	padding: 20px;
+	border-radius: 3px;
+	background: #fff;
+}
+.close {
+	font-family: Arial, Helvetica, sans-serif;
+	background: #f26d7d;
+	color: #fff;
+	line-height: 25px;
+	position: absolute;
+	right: -12px;
+	text-align: center;
+	top: -10px;
+	width: 34px;
+	height: 34px;
+	text-decoration: none;
+	font-weight: bold;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	-moz-box-shadow: 1px 1px 3px #000;
+	-webkit-box-shadow: 1px 1px 3px #000;
+	box-shadow: 1px 1px 3px #000;
+	padding-top: 5px;
+	z-index: 99999;
+}
+.close:hover {
+	background: #fa3f6f;
+}
+
+.case-study-cont {
+	width: 95%;
+	margin: auto;
+	margin-top: 50px;
+}
+
+.case-study-card-cont {
+	width: 400px;
 }
