@@ -279,26 +279,32 @@
           <div class="name-part">
             <div class="fname">
               <div class="input-heading">Your Name<sup>*</sup></div>
-              <input type="text" placeholder="John" id="name" />
+              <input type="text" required id="name" />
             </div>
             <div class="lname">
-              <div class="input-heading">Organisation<sup>*</sup></div>
-              <input type="text" placeholder="ABC" id="Org" />
+              <div class="input-heading">Organization<sup>*</sup></div>
+              <input type="text" required id="Org" />
             </div>
           </div>
           <div class="name-part">
             <div class="fname">
-              <div class="input-heading">Email address<sup>*</sup></div>
-              <input type="email" placeholder="john@abc.com" id="email" />
+              <div class="input-heading">Email<sup>*</sup></div>
+              <input type="email" required id="email" />
             </div>
             <div class="lname">
-              <div class="input-heading">Phone Number<sup>*</sup></div>
-              <input type="text" placeholder="+91 1234567890" required id="phnumber" />
+              <div class="input-heading">Contact Number<sup>*</sup></div>
+              <input type="text" required id="phnumber" />
             </div>
           </div>
           <div class="lname">
             <div class="input-heading">Message<sup>*</sup></div>
-            <textarea name="message" id="message" placeholder="Let us know how we can be helpful?" required></textarea>
+            <textarea name="message" id="message" required></textarea>
+          </div>
+          <div class="center-btn" style="margin-top: 20px;">
+            <iframe title="reCAPTCHA"
+              src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6LeAq9sUAAAAAD3NbaYCnIfujIAgoEmYHHFzf27u&amp;co=aHR0cHM6Ly9lcXVpcG8uaW86NDQz&amp;hl=en&amp;v=FDTCuNjXhn1sV0lk31aK53uB&amp;size=normal&amp;cb=k75jfyy56yam"
+              width="304" height="78" role="presentation" name="a-23ysc0ez9lrm" frameborder="0" scrolling="no"
+              sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe>
           </div>
           <div class="center-btn">
             <button class="form-submit-btn" onclick="submmitit()" type="submit">
