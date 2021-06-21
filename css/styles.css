@@ -2088,11 +2088,11 @@ option {
 	margin: 0 auto;
 }
 
-.twitter-timeline-div {
+/* .twitter-timeline-div {
 	width: 310px;
 	height: 500px;
 	overflow-y: scroll;
-}
+} */
 
 .modalDialog {
 	position: fixed;
