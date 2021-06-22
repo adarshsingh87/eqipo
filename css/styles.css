@@ -877,7 +877,7 @@ p {
 .we-serve-title {
 	font-weight: bold;
 	font-size: 24px;
-	line-height: 100%;
+	line-height: 120%;
 	text-align: center;
 	letter-spacing: 0.1px;
 	color: #053d76;
@@ -2168,4 +2168,14 @@ option {
 
 .case-study-card-cont {
 	width: 320px;
+}
+
+.logo-img {
+	width: 150px;
+}
+
+@media screen and (max-width: 960px) {
+	.logo-img {
+		width: 100px;
+	}
 }
