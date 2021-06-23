@@ -358,13 +358,12 @@ body {
 	overflow: hidden !important;
 }
 
-.full.twentytwo,
-.twentytwo .fill {
+.fill {
 	transform: rotate(170deg);
 	overflow: hidden !important;
 }
 
-.full.sixteen,
+/* .full.sixteen,
 .sixteen .fill {
 	transform: rotate(170deg);
 	overflow: hidden !important;
@@ -380,7 +379,7 @@ body {
 .ninety .fill {
 	transform: rotate(170deg);
 	overflow: hidden !important;
-}
+} */
 
 .ninety.full.animate,
 .ninety.animate .ninety {
@@ -389,7 +388,7 @@ body {
 
 .twentyfour.full.animate,
 .twentyfour.animate .twentyfour {
-	animation: twentyfout linear 3s forwards;
+	animation: twentyfour linear 3s forwards;
 }
 
 .sixteen.full.animate,
@@ -400,6 +399,160 @@ body {
 .twentytwo.full.animate,
 .twentytwo.animate .twentytwo {
 	animation: twentytwo linear 3s forwards;
+}
+
+.twelve.full.animate,
+.twelve.animate .twelve {
+	animation: twelve linear 3s forwards;
+}
+
+.seventeen.full.animate,
+.seventeen.animate .seventeen {
+	animation: seventeen linear 3s forwards;
+}
+
+.eightteen.full.animate,
+.eightteen.animate .eightteen {
+	animation: eightteen linear 3s forwards;
+}
+
+.twentyeight.full.animate,
+.twentyeight.animate .twentyeight {
+	animation: twentyeight linear 3s forwards;
+}
+
+.twentysix.full.animate,
+.twentysix.animate .twentysix {
+	animation: twentysix linear 3s forwards;
+}
+
+.fourteen.full.animate,
+.fourteen.animate .fourteen {
+	animation: fourteen linear 3s forwards;
+}
+
+.thirtytwo.full.animate,
+.thirtytwo.animate .thirtytwo {
+	animation: thirtytwo linear 3s forwards;
+}
+
+.hundred.full.animate,
+.hundred.animate .hundred {
+	animation: hundred linear 3s forwards;
+}
+
+.ninetyfive.full.animate,
+.ninetyfive.animate .ninetyfive {
+	animation: ninetyfive linear 3s forwards;
+}
+
+.twentyone.full.animate,
+.twentyone.animate .twentyone {
+	animation: twentyone linear 3s forwards;
+}
+
+.twentynine.full.animate,
+.twentynine.animate .twentynine {
+	animation: twentynine linear 3s forwards;
+}
+
+@keyframes twentynine {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(52.2deg);
+	}
+}
+
+@keyframes twentyone {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(37.8deg);
+	}
+}
+
+@keyframes ninetyfive {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(171deg);
+	}
+}
+
+@keyframes hundred {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(180deg);
+	}
+}
+
+@keyframes thirtytwo {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(57.6deg);
+	}
+}
+
+@keyframes fourteen {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(25.2deg);
+	}
+}
+
+@keyframes twentysix {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(46.8deg);
+	}
+}
+
+@keyframes twentyeight {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(50.4deg);
+	}
+}
+
+@keyframes eightteen {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(32.4deg);
+	}
+}
+
+@keyframes seventeen {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(30.6deg);
+	}
+}
+
+@keyframes twelve {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(22deg);
+	}
 }
 
 @keyframes twentytwo {
@@ -429,7 +582,7 @@ body {
 	}
 }
 
-@keyframes twentyfout {
+@keyframes twentyfour {
 	0% {
 		transform: rotate(0deg);
 	}
@@ -2181,4 +2334,12 @@ option {
 	.logo-img {
 		width: 100px;
 	}
+}
+
+.sub-heading-big {
+	font-size: 30px;
+}
+
+.sub-heading {
+	font-size: 24px;
 }
