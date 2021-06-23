@@ -401,9 +401,19 @@ body {
 	animation: twentytwo linear 3s forwards;
 }
 
+.twentytwo-rev.full.animate,
+.twentytwo-rev.animate .twentytwo-rev {
+	animation: twentytwo-rev linear 3s forwards;
+}
+
 .twelve.full.animate,
 .twelve.animate .twelve {
 	animation: twelve linear 3s forwards;
+}
+
+.twelve-rev.full.animate,
+.twelve-rev.animate .twelve-rev {
+	animation: twelve-rev linear 3s forwards;
 }
 
 .seventeen.full.animate,
@@ -431,9 +441,19 @@ body {
 	animation: fourteen linear 3s forwards;
 }
 
+.fourteen-rev.full.animate,
+.fourteen-rev.animate .fourteen-rev {
+	animation: fourteen-rev linear 3s forwards;
+}
+
 .thirtytwo.full.animate,
 .thirtytwo.animate .thirtytwo {
 	animation: thirtytwo linear 3s forwards;
+}
+
+.thirtytwo-rev.full.animate,
+.thirtytwo-rev.animate .thirtytwo-rev {
+	animation: thirtytwo-rev linear 3s forwards;
 }
 
 .hundred.full.animate,
@@ -492,12 +512,30 @@ body {
 	}
 }
 
+@keyframes thirtytwo-rev {
+	0% {
+		transform: rotate(180deg);
+	}
+	100% {
+		transform: rotate(57.6deg);
+	}
+}
+
 @keyframes thirtytwo {
 	0% {
 		transform: rotate(0deg);
 	}
 	100% {
 		transform: rotate(57.6deg);
+	}
+}
+
+@keyframes fourteen-rev {
+	0% {
+		transform: rotate(180deg);
+	}
+	100% {
+		transform: rotate(25.2deg);
 	}
 }
 
@@ -555,9 +593,27 @@ body {
 	}
 }
 
+@keyframes twelve-rev {
+	0% {
+		transform: rotate(180deg);
+	}
+	100% {
+		transform: rotate(22deg);
+	}
+}
+
 @keyframes twentytwo {
 	0% {
 		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(40deg);
+	}
+}
+
+@keyframes twentytwo-rev {
+	0% {
+		transform: rotate(180deg);
 	}
 	100% {
 		transform: rotate(40deg);
