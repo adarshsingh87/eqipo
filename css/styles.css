@@ -413,7 +413,7 @@ body {
 
 @keyframes sixteen {
 	0% {
-		transform: rotate(180deg);
+		transform: rotate(0deg);
 	}
 	100% {
 		transform: rotate(29deg);
@@ -1792,12 +1792,18 @@ p {
 }
 
 .form-cont {
-	display: flex;
+	background-image: url(../assets/contact_bg.jpg);
+	/* background-size: cover; */
+	background-position-x: center;
 	box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
 	border-radius: 16px;
 	margin: 60px 0;
 	box-sizing: border-box;
 	margin-top: 15vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
 }
 
 .form {
@@ -1808,9 +1814,6 @@ p {
 
 .side-info {
 	width: 40%;
-	background-image: url(../assets/contact_bg.jpg);
-	background-size: cover;
-	background-position: right center;
 	padding: 60px;
 	border-radius: 0px 16px 16px 0px;
 	box-sizing: border-box;
@@ -1862,7 +1865,7 @@ option {
 	line-height: 130%;
 	padding: 20px 50px;
 	border-radius: 32px;
-	margin-top: 40px;
+	margin-top: 20px;
 	align-self: center;
 	background: #053d76;
 	color: white;
@@ -2122,8 +2125,8 @@ option {
 }
 @media screen and (max-width: 960px) {
 	.modalDialog > div {
-	transform: translateY(0%);
-}
+		transform: translateY(0%);
+	}
 }
 .modalDialog > div > div {
 	height: 80vh;
