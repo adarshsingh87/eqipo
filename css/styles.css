@@ -2390,6 +2390,9 @@ option {
 	.logo-img {
 		width: 100px;
 	}
+	.temp-ul {
+		display: block !important;
+	}
 }
 
 .sub-heading-big {
