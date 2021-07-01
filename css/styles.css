@@ -2215,7 +2215,7 @@ option {
 
 .member-name {
 	font-weight: bold;
-	font-size: 32px;
+	font-size: 24px;
 	line-height: 40px;
 	text-align: center;
 	color: #053d76;
@@ -2223,7 +2223,7 @@ option {
 
 .member-position {
 	font-weight: 500;
-	font-size: 20px;
+	font-size: 18px;
 	line-height: 40px;
 	text-align: center;
 	color: #053d76;
