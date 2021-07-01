@@ -2195,12 +2195,13 @@ option {
 
 .team-card {
 	width: 350px;
-	height: 374px;
+	/* height: 374px; */
 	background: #ffffff;
 	border: 2px solid #e2f8fd;
 	box-sizing: border-box;
 	border-radius: 16px;
-	padding: 24px;
+	padding: 12px;
+	text-align: center;
 }
 
 .team-card > img {
