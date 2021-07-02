@@ -2403,3 +2403,7 @@ option {
 .sub-heading {
 	font-size: 24px;
 }
+
+.tabcontent {
+	justify-content: center !important;
+}
