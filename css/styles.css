@@ -2142,8 +2142,7 @@ option {
 .career-cont {
 	margin-top: 74px;
 	height: 436px;
-	background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-		url(../assets/career.png);
+	background-image: url(../assets/career.png);
 	background-size: cover;
 	display: flex;
 	flex-direction: column;
