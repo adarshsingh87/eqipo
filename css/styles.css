@@ -243,8 +243,7 @@ body {
 
 .hero-c2a-btn {
 	border: none;
-	background: #053d76;
-	border: 2px solid rgba(5, 61, 118, 0.25);
+	background: #DF6512;
 	box-sizing: border-box;
 	padding: 12px;
 	border-radius: 6px;
@@ -2076,9 +2075,9 @@ option {
 }
 
 .form-submit-btn {
-	font-size: 20px;
+	font-size: 18px;
 	line-height: 130%;
-	padding: 15px 25px;
+	padding: 10px 25px;
 	border-radius: 32px;
 	margin-top: 20px;
 	align-self: center;
@@ -2127,7 +2126,7 @@ option {
 		height: 150px;
 	}
 	.form-submit-btn {
-		padding: 15px 50px;
+		padding: 10px 20px;
 		border-radius: 18px;
 		margin-top: 20px;
 		align-self: center;
