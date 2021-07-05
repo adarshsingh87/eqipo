@@ -12,6 +12,10 @@
 	/* overflow-x: hidden; */
 }
 
+a:hover {
+	text-decoration: none !important;
+}
+
 .tranparent {
 	background-color: transparent !important;
 }
