@@ -63,6 +63,10 @@ a:hover {
 	color: #053d76;
 }
 
+.dropdown-item:active {
+	background-color: #fff !important;
+}
+
 .tempp {
 	display: flex;
 	align-items: center;
