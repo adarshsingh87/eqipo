@@ -26,6 +26,7 @@ a:hover {
 	width: 100%;
 	z-index: 10000;
 	max-width: 100vw;
+	background-color: #E6F9FE;
 }
 
 .color {
@@ -2202,7 +2203,7 @@ option {
 }
 
 .team-card {
-	width: 350px;
+	max-width: 350px;
 	/* height: 374px; */
 	background: #ffffff;
 	border: 2px solid #e2f8fd;
@@ -2395,12 +2396,19 @@ option {
 	width: 150px;
 }
 
+.team-head {
+	height: 730px;
+}
+
 @media screen and (max-width: 960px) {
 	.logo-img {
 		width: 100px;
 	}
 	.temp-ul {
 		display: block !important;
+	}
+	.team-head {
+		height: auto;
 	}
 }
 
