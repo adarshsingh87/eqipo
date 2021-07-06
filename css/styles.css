@@ -46,6 +46,10 @@ a:hover {
 	display: none;
 }
 
+.nav-link {
+	outline: none !important;
+}
+
 .nav-dropdown-elem {
 	display: flex;
 	align-items: center;
