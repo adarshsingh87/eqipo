@@ -26,7 +26,7 @@ a:hover {
 	width: 100%;
 	z-index: 10000;
 	max-width: 100vw;
-	background-color: #E6F9FE;
+	background-color: #e6f9fe;
 }
 
 .color {
@@ -256,7 +256,7 @@ body {
 
 .hero-c2a-btn {
 	border: none;
-	background: #DF6512;
+	background: #df6512;
 	box-sizing: border-box;
 	padding: 12px;
 	border-radius: 6px;
@@ -2430,4 +2430,30 @@ option {
 
 .tabcontent {
 	justify-content: center !important;
+}
+
+.f0f-cont {
+	margin-top: 8vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: calc(100vh - 400px - 4vh);
+}
+
+.title-404 {
+	font-weight: 800;
+	font-size: 141.429px;
+	line-height: 165px;
+	text-align: center;
+	letter-spacing: 0.589286px;
+	color: #053d76;
+}
+
+.not-found {
+	font-size: 21.8182px;
+	line-height: 30px;
+	text-align: center;
+	letter-spacing: 0.409091px;
+	color: #000000;
 }
